@@ -1,0 +1,25 @@
+.shortcuts_contain{
+    display: flex;
+    gap: 20px;
+}
+.shortcuts_contain .card_outer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.shortcuts_contain .card_outer .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+}
+.shortcuts_contain .card_outer .card img{
+    height: 70px;
+}

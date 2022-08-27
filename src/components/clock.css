@@ -1,0 +1,14 @@
+.clock_contain{
+    display: flex;
+    flex-direction: column;
+}
+.clock_contain .day {
+    font-size: 60px;
+}
+.clock_contain .time {
+    font-size: 50px;
+}
+.clock_contain .date{
+    font-size: 30px;
+    margin-top: -5px;
+}
